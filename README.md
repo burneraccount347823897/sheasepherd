@@ -9,10 +9,10 @@ Kurzanleitung zum Starten des Projekts:
 4. Backend konfigurieren:
    - In der Datei src/main/resources/application.properties Nutzernamen und Passwort für MySQL anpassen
 5. Backend starten:
-   - In Projektordner zu shea-sepherd-backend/ghostnets navigieren
+   - Im Projektordner zu shea-sepherd-backend/ghostnets navigieren
    - dann ./mvnw spring-boot:run (bzw. mvnw.cmd spring-boot:run auf Windows)
 6. Frontend starten:
-   - in Projketorndern zu shea-sepherd-frontend navigieren
+   - Im Projektorder zu shea-sepherd-frontend navigieren
    - dann npm install und npm run dev
 7. Ports überprüfen: Frontend läuft unter localhost:5173, Backend muss unter localhost:8080 laufen
 8. HINWEISE:
@@ -23,5 +23,5 @@ Kurzanleitung zum Starten des Projekts:
      - spring.jpa.hibernate.ddl-auto=create
      - spring.sql.init.mode=always
      - spring.jpa.defer-datasource-initialization=true
-  - create anstelle von update sorgt nun dafür, dass die Datenbank bei jedem Start der Anwendung geleert und frisch befüllt wird. Dies entspricht natürlich
+   - create anstelle von update sorgt nun dafür, dass die Datenbank bei jedem Start der Anwendung geleert und frisch befüllt wird. Dies entspricht natürlich
     nicht einer persistenten Datenhaltung, erschien jedoch zu Testzwecken sinnvoll. 
